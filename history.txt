@@ -1,0 +1,71 @@
+    1  ls
+    2  cd mysite
+    3  ls
+    4  git config --global user.name "gianfrancodeluca"
+    5  git config --global user.email "rmike8328@gmail.com"
+    6  git init
+    7  cat > .gitignore
+    8  git status
+    9  git add .
+   10  git commit -m "include commits"
+   11  git status
+   12  git add .
+   13  git commit -m "[master (root-commit) dd4545]"
+   14  git status
+   15  git add .
+   16  git commit -m "after the code you just added"
+   17  git status
+   18  git add .
+   19  git commit -m "9 insertions (+)"
+   20  ipython3.6
+   21  git status
+   22  git add .
+   23  git commit -m "git commit -a"
+   24  git diff
+   25  git status
+   26  git add .
+   27  git commit -m "/main_page.html"
+   28  git status
+   29  git add .
+   30  git commit -m "git add <file>"
+   31  mkvirtualenv flask-tutorial --python=python3.6
+   32  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+   33  pip freeze > requirements.txt
+   34  git status
+   35  git add .
+   36  git commit -m "click-6.7"
+   37  #migrations
+   38  #pip install flask migrate
+   39  pip install Flask-Migrate
+   40  export FLASK_APP=flask_app.py
+   41  flask db init
+   42  flask db migrate
+   43  git status
+   44  git add .
+   45  git commit -m "seize martyres decapites"
+   46  flask db stamp head
+   47  pip freeze > requirements.txt
+   48  git status
+   49  git add .
+   50  git commit -m "un petit peu moins"
+   51  flask db migrate
+   52  flask db upgrade
+   53  git status
+   54  git add.
+   55  git add .
+   56  git commit -m "faites connaissance avec julien"
+   57  flask db migrate
+   58  flask db upgrade
+   59  flask shell
+   60  git status
+   61  flask db migrate
+   62  flask db upgrade
+   63  flask shell
+   64  echo "# https-www.pythonanywhere.com-user-gianfrancodeluca-consoles-10020075-" >> README.md
+   65  git init
+   66  git add README.md
+   67  git commit -m "first commit"
+   68  git remote add origin https://github.com/mikerissi/https-www.pythonanywhere.com-user-gianfrancodeluca-consoles-10020075-.git
+   69  git push -u origin master
+   70  history
+   71  history > history.txt
